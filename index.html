@@ -1,14 +1,166 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Masoud Bahari</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Masoud Bahari</title>
+    <meta name="description" content="Masoud Bahari — Postdoctoral researcher in condensed matter theory." />
+
+    <!-- Minimal, beautiful styling without build tools -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+
+    <style>
+      header { padding-top: 2.5rem; padding-bottom: 1.25rem; }
+      .muted { opacity: 0.75; }
+      .pill a { margin-right: .5rem; margin-bottom: .5rem; display: inline-block; }
+      .card { padding: 1.25rem; border: 1px solid rgba(0,0,0,.12); border-radius: 14px; }
+      .grid2 { display: grid; gap: 1rem; grid-template-columns: 1fr; }
+      @media (min-width: 900px) { .grid2 { grid-template-columns: 1.2fr .8fr; } }
+      footer { padding: 2rem 0 3rem; }
+      ol.pub { margin-bottom: 0; }
+      ol.pub li { margin-bottom: .75rem; }
+      .venue { font-style: italic; }
+    </style>
   </head>
+
   <body>
-    <h1>Masoud Bahari</h1>
-    <p>Postdoctoral researcher | Condensed matter theory</p>
-    <p><a href="cv_en.pdf" download>CV (English)</a> · <a href="cv_de.pdf" download>CV (Deutsch)</a> · <a href="https://github.com/Masoud-Bahari">GitHub</a>
-</p>
+    <main class="container">
+      <header>
+        <h1>Masoud Bahari</h1>
+        <p class="muted">Postdoctoral researcher | Condensed matter theory</p>
+
+        <p class="pill">
+          <a href="cv_en.pdf" role="button" class="contrast" download>CV (English)</a>
+          <a href="cv_de.pdf" role="button" class="secondary" download>CV (Deutsch)</a>
+          <a href="https://github.com/Masoud-Bahari" role="button" class="outline">GitHub</a>
+          <!-- Optional: add your Scholar/ORCID links when ready
+          <a href="https://scholar.google.com/..." role="button" class="outline">Google Scholar</a>
+          <a href="https://orcid.org/..." role="button" class="outline">ORCID</a>
+          -->
+        </p>
+      </header>
+
+      <section class="grid2">
+        <div class="card">
+          <h2>About</h2>
+          <p>
+            I work on theoretical condensed matter physics with an emphasis on multipolar spin–orbit coupling,
+            unconventional superconductivity, and topological/mesoscopic phenomena in multiband systems.
+          </p>
+
+          <h2>Research interests</h2>
+          <ul>
+            <li>Multipolar SOC beyond spin-1/2 (high-j manifolds)</li>
+            <li>Unconventional superconductivity and symmetry-based modeling</li>
+            <li>Transport, spin–charge conversion, and topological phases</li>
+          </ul>
+        </div>
+
+        <aside class="card">
+          <h2>Contact</h2>
+          <ul>
+            <!-- Replace with your preferred public email -->
+            <li>Email: <a href="mailto:mr.bahari.ph@gmail.com">mr.bahari.ph@gmail.com</a></li>
+            <li>Location: Würzburg, Germany</li>
+          </ul>
+
+          <h2>Profiles</h2>
+          <ul>
+            <li><a href="https://github.com/Masoud-Bahari">GitHub</a></li>
+            <!-- Add when you want:
+            <li><a href="https://scholar.google.com/...">Google Scholar</a></li>
+            <li><a href="https://orcid.org/...">ORCID</a></li>
+            -->
+          </ul>
+
+          <p class="muted">
+            Tip: avoid publishing your phone number and street address on a public webpage.
+          </p>
+        </aside>
+      </section>
+
+      <section class="card">
+        <h2>Publications</h2>
+        <p class="muted">
+          List compiled from your CV. (You can later add DOI/arXiv links to each item.)
+        </p>
+
+        <ol class="pub">
+          <li>
+            Masoud Bahari, Kristian Mæland, Carten Timm, Björn Trauzettel,
+            “Beyond spin-1/2: Multipolar spin-orbit coupling in noncentrosymmetric crystals with time-reversal symmetry”,
+            <span class="venue">arXiv:2512.18449</span> (2025).
+          </li>
+          <li>
+            Kristian Mæland, Masoud Bahari, Björn Trauzettel,
+            “Phonon-Mediated Intrinsic Topological Superconductivity in Fermi Arcs”,
+            <span class="venue">Physical Review B</span> 112, 104507 (2025).
+          </li>
+          <li>
+            Masoud Bahari, “Spectral Properties of Unconventional Multiband Superconductors”,
+            <span class="venue">Doctoral Dissertation</span>, Universität Würzburg (2025).
+          </li>
+          <li>
+            Masoud Bahari, Song-Bo Zhang, Chang-An Li, Sang-Jun Choi, Philipp Rüßmann, Carsten Timm, Björn Trauzettel,
+            “Helical Topological Superconducting Pairing at Finite Excitation Energies”,
+            <span class="venue">Physical Review Letters</span> 132, 266201 (2024).
+          </li>
+          <li>
+            Philipp Rüßmann, Masoud Bahari, Stefan Blügel, Björn Trauzettel,
+            “Interorbital Cooper pairing at finite energies in Rashba surface states”,
+            <span class="venue">Physical Review Research</span> 5, 043181 (2023).
+          </li>
+          <li>
+            Philipp Rüßmann, Masoud Bahari, Stefan Blügel, Björn Trauzettel,
+            “Proximity-induced Cooper pairing at low and finite energies in the gold Rashba surface state”,
+            <span class="venue">Quanten-Theorie der Materialien</span> (2023).
+          </li>
+          <li>
+            Masoud Bahari, Song-Bo Zhang, Björn Trauzettel,
+            “Intrinsic finite-energy Cooper pairing in j = 3/2 superconductors”,
+            <span class="venue">Physical Review Research</span> 4, L012017 (2022).
+          </li>
+          <li>
+            Masoud Bahari, Mir Vahid Hosseini,
+            “Topological properties of a generalized spin-orbit-coupled Su-Schrieffer-Heeger model”,
+            <span class="venue">Physica E</span> 119, 113973 (2020).
+          </li>
+          <li>
+            Masoud Bahari, Mir Vahid Hosseini,
+            “One-dimensional topological metal”,
+            <span class="venue">Physical Review B</span> 99, 155128 (2019).
+          </li>
+          <li>
+            Masoud Bahari, Mir Vahid Hosseini,
+            “The effect of uniform spin-orbit coupling and uniform Zeeman magnetic field on the topological properties of one-dimensional dimerized nano wire”,
+            <span class="venue">IJPR</span> 17, 717 (2019).
+          </li>
+          <li>
+            Masoud Bahari, Mir Vahid Hosseini,
+            “Zeeman-field-induced nontrivial topological phases in a one-dimensional spin-orbit-coupled dimerized lattice”,
+            <span class="venue">Physical Review B</span> 94, 125119 (2016).
+          </li>
+          <li>
+            Masoud Bahari, “Topological insulator in a 1D quantum nano wire”,
+            <span class="venue">Master of Science Dissertation</span> (2016).
+          </li>
+        </ol>
+      </section>
+
+      <section class="card">
+        <h2>Code</h2>
+        <ul>
+          <li><a href="https://github.com/Masoud-Bahari/Multipolar-PRB-codes">Multipolar-PRB-codes</a></li>
+        </ul>
+      </section>
+
+      <footer class="muted">
+        <small>© <span id="y"></span> Masoud Bahari</small>
+      </footer>
+    </main>
+
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
